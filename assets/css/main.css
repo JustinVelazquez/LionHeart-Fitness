@@ -7,6 +7,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Custom Variable */
+:root {
+  --background-image: linear-gradient(
+      to top,
+      rgba(46, 49, 65, 0.8),
+      rgba(46, 49, 65, 0.8)
+    ),
+    url('../../images/10320-personal-trainer-gym-stock-cs-1113a_b658eccf395b324947b4bdd1e2442afa.fit-2000w.jpg');
+}
+
 html,
 body,
 div,
@@ -168,6 +178,7 @@ textarea {
 
 body {
   -ms-overflow-style: scrollbar;
+  z-index: 2;
 }
 
 @media screen and (max-width: 480px) {
@@ -189,6 +200,20 @@ html {
 
 body {
   background-color: #2e3141;
+  /* background-image: linear-gradient(
+      to top,
+      rgba(46, 49, 65, 0.8),
+      rgba(46, 49, 65, 0.8)
+    ),
+    url('../../images/10320-personal-trainer-gym-stock-cs-1113a_b658eccf395b324947b4bdd1e2442afa.fit-2000w.jpg'); */
+  background-image: var(--background-image);
+  background-size: auto, cover;
+  background-attachment: fixed, fixed;
+  background-position: center, center;
+}
+/* 
+.background {
+  background-color: #2e3141;
   background-image: linear-gradient(
       to top,
       rgba(46, 49, 65, 0.8),
@@ -198,7 +223,7 @@ body {
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
-}
+} */
 
 body.is-preload *,
 body.is-preload *:before,
@@ -3564,12 +3589,7 @@ body.is-menu-visible #menu .inner {
   #banner {
     padding: 7em 0 8.25em 0;
     background-color: #2e3141;
-    background-image: linear-gradient(
-        to top,
-        rgba(46, 49, 65, 0.8),
-        rgba(46, 49, 65, 0.8)
-      ),
-      url('../../images/bg.jpg');
+    background-image: var(--background-image);
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -4167,12 +4187,13 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
   #footer {
     background-color: #2e3141;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         to top,
         rgba(46, 49, 65, 0.8),
         rgba(46, 49, 65, 0.8)
       ),
-      url('../../images/bg.jpg');
+      url('../../images/bg.jpg'); */
+    background-image: var(--background-image);
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
