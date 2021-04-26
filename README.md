@@ -5,7 +5,7 @@ Visitors can even fill out a contact form which will automatically send to the c
 
 Live Site Coming Soon:
 
-![alt tag](https://ibb.co/bQWXdN4)
+![alt tag](https://imgur.com/IWIPWoT)
 
 ## How It's Made:
 
