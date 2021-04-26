@@ -24,3 +24,11 @@ the work i have started here.
 
 First paid Client! It was a great first experience in actually dealing with a client, trying to meet their needs and provide the quality of service that they deserve. It was also a great look into how SASS works and how that can help
 bring your CSS to the next level.
+
+
+## Other Projects
+The-Tech-Shop: https://github.com/JustinVelazquez/The-Tech-Shopv2
+
+Crypto Daily LINK
+
+Full-Stack Open: https://github.com/JustinVelazquez/FullStack-2021
