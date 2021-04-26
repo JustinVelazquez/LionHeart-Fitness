@@ -5,11 +5,11 @@ Visitors can even fill out a contact form which will automatically send to the c
 
 Live Site Coming Soon:
 
-![alt tag](https://imgur.com/IWIPWoT)
+![alt tag](https://i.imgur.com/IWIPWoT.png)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, SASS, JavaScript,
+**Tech used:** HTML, CSS, SASS, JavaScript
 
 This was one of my first experiences working with SASS. And im sure it wont be the last.
 
